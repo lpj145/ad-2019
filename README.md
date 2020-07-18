@@ -3,19 +3,20 @@ This project is builded top of React and Fastify(NodeJS).
 
 ##### Backend
 in backend folder RestApi structure is found, he have two endpoints above:
+
     - /persons [GET, POST, PUT, DELETE]
     - /persons/playgame - Sort players and send email.
 
-to [PUT, DELETE] and `/persons/playgame` endpoints the return is http 204 (No Content).
+to `[PUT, DELETE]` and `/persons/playgame` endpoints the return is http 204 (No Content) or 404 (Not Found).
 
 Lib used in product: `mongoose`, `mongodb`, `mailgun`, `fastify`.
 
 ###### Install and run
 ```bash
-    git clone https://github.com/lpj145/ad-2019
-    cd ad-2019/backend
-    npm install
-    npm run serve
+git clone https://github.com/lpj145/ad-2019
+cd ad-2019/backend
+npm install
+npm run serve
 ```
 
 ###### Envvars
@@ -38,10 +39,10 @@ MAILGUN_FROM_EMAIL=<-MAILGUN_SELF_EMAIL->
 ##### Frontend
 in frontend folder you can find everything about frontend (ReactApp)
 ```bash
-    git clone https://github.com/lpj145/ad-2019
-    cd ad-2019/frontend
-    npm install
-    npm run start
+git clone https://github.com/lpj145/ad-2019
+cd ad-2019/frontend
+npm install
+npm run start
 ```
 
 ##### Tests
