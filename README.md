@@ -47,3 +47,13 @@ npm run start
 
 ##### Tests
 This project don't implement tests because i have little time to finish, please, i appreciate you comprehension.
+
+#### Screenshots
+
+![app](images/app.png)
+
+![addform](images/addform.png)
+
+![editform](images/editform.png)
+
+![general](images/general.png)

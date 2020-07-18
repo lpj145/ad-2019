@@ -13,7 +13,7 @@ const startServer = async () => {
 
   try {
     await database.connect()
-    await httpServer.listen(process.env.SERVER_PORT)
+    await httpServer.listen(process.env.SERVER_PORT, process.env.SERVER_HOST)
     httpServer.log.info(`Enjoy a web application at: ${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`)
   } catch (error) {
     httpServer.log.error(error)
