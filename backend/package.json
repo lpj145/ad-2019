@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "fastify": "^3.0.3",
+    "fastify": "^3.29.4",
     "fastify-cors": "^4.0.0",
     "mailgun.js": "^2.0.1",
     "mongoose": "^5.9.24"
